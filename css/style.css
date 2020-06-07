@@ -26,6 +26,17 @@ body {
   background: #47467C;
 }
 
+.hero-img-top{
+  height: 50vh;
+  width: 50vh;
+  border-radius: 50%;
+  transition: .3s border-radius;
+}
+
+.hero-img-top:hover{
+  border-radius: 20%;
+}
+
 .my-section {
   margin-top: 40px;
   padding-bottom: 30px;
